@@ -1,0 +1,42 @@
+
+.container{
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: 4px 4px 30px rgb(0.4, 0.4, 0.4, 0.4);
+    padding: 0.7rem;
+    width: 30rem;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+input[type = text]{
+   outline: none;
+   padding: 0.5rem;
+   border-color: blue; 
+}
+input[type = submit]{
+    border: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    transition: 0.6s;
+}
+input[type = submit]:hover{
+    background-color: crimson;
+}
+li{
+    list-style: none;
+    background-color: blue;
+    color: white;
+    padding: 0.4rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        width: 80%;
+    }
+}
